@@ -1,0 +1,30 @@
+@media (max-width: 37.5em) {
+  body {
+    width: 100%;
+  }
+
+  header {
+    height: 30vh;
+  }
+
+  main {
+    height: 80vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .right {
+    margin-top: 2rem;
+  }
+
+  .message {
+    margin-bottom: 4rem;
+  }
+
+  .message,
+  .label-score,
+  .label-highscore {
+    text-align: center;
+  }
+}
